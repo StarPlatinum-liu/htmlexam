@@ -1,0 +1,16 @@
+.clearfix::before,.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    min-width: 1224px;
+    perspective: 2000;
+    background-color: rgb(244, 253, 255);
+}
+
+.w{
+    width: 1224px;
+    margin: 0 auto;
+}
